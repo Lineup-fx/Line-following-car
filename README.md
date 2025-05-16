@@ -2,6 +2,3 @@ Materials Used: 8052 Microcontroller, USBasp programmer, Jumpers and Breadboard,
 Chassis and turning mechanism: Three wheel chassis used, with two back wheels connected to DC motors and one supporting front wheel not connected to any motor, used only to maintain balance, spins around a ball bearing. The car turns by turning one of the back wheels forward and the other one backward, causing it to rotate in the same direction.
 Sensors: Two IR sensors are used with each sensor placed on either side of the line( the black line is always in the space between both sensors), the sensors are calibrated so that they return logic high when over a light surface, and logic low when they are pointing to a dark surface( here it is the line ).
 Code and idea behind it: The LCD screen, Sensors and Motor driver to control the motors, are all interfaced to the the 8052 mc, with a message straight displayed on the LCD if the car is moving straight, and left or right if the car is turning left or right.
-Line following car made using the two Ir sensors, motor module, motors all interfaced to a 8052 microcontroller, along with a LCD screen. 
-The car is made to follow along a black line, that is laid using black tape on the floor, and can be laid into any path with curves or bends. 
-The code is coded in assembly and flashed into the 8052 using a USBasp programmer.
